@@ -1,6 +1,6 @@
 name: Actions Worflow
 
-on: [pull, push]
+on: [push]
 
 jobs:
   run-github-actions:
@@ -28,6 +28,6 @@ jobs:
         id: greet
         uses: actions/hello-world-javascript-action@v1
         with:
-          who-to-greet: IOET Community
+          who-to-greet: John
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time }}"
