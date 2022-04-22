@@ -28,6 +28,6 @@ jobs:
         id: greet
         uses: actions/hello-world-javascript-action@v1
         with:
-          who-to-greet: to IOET Community
+          who-to-greet: IOET Community
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time }}"
