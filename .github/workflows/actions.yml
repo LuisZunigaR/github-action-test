@@ -1,6 +1,6 @@
 name: Actions Worflow
 
-on: [pull, push]
+on: [push]
 
 jobs:
   run-github-actions:
